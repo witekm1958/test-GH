@@ -1,0 +1,17 @@
+public class inwest {
+    public static void main(String[] args) {
+        double inwestycja = 14000;
+        double dochod_1;
+        double dochod_2;
+        double dochod_3;
+
+        dochod_1 = inwestycja + (inwestycja * 40 / 100);
+        dochod_2 = dochod_1 - 1500;
+        dochod_3 = dochod_2 + (dochod_2 * 12 / 100);
+
+        System.out.println("Dochód rok 1.... " + dochod_1);
+        System.out.println("Dochód rok 2.... " + dochod_2);
+        System.out.println("Dochód rok 3.... " + dochod_3);
+        System.out.println("Zysk/Strata.... " + (dochod_3 - inwestycja));
+    }
+}
